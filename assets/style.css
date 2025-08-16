@@ -39,8 +39,9 @@ form button {
   border: none;
   color: #fff;
   height: 45px;
-  width: 112px;
-  margin: 54px 0px 0px 0px; /* top right bottom left */
+  width: 100%;
+  max-width: 112px;
+  margin: 40px 0px 0px 0px; /* top right bottom left */
 }
 #part2 .col-md-4 button:hover {
   background-color: #0b5ed7;
