@@ -5,12 +5,10 @@
 #part1 ul li{
   padding-right: 20px;
 }
-
 #part1 li a:hover {
   color: #ffffff;
   background-color: #0b5ed7
 }
-
 .flag-icon {
   cursor: pointer;
   width: 46px;
@@ -25,31 +23,26 @@
 #part2 .col-md-8 a{
   text-decoration: none;
 }
-
 form {
-  width: 70%;
+  width: 60%;
+  max-width: 600px;
   height: 50px;
   display: inline-flex;
 }
 form button {
-  width: 24%;
+  width: 80%; /* chiếm toàn bộ chiều ngang cột */
+  max-width: 120px; /* nếu muốn giới hạn chiều rộng tối đa */
 }
-
-#part2 .col-md-4 ul li {
-  display: inline-block;
-  padding: 40px 5px 5px 5px; /* top right bottom left */
-}
-
-#part2 .col-md-4 ul li button {
+#part2 .col-md-4 button {
   border-radius: 5px;
   cursor: pointer;
   border: none;
-  background-color: #0d6efd;
   color: #fff;
-  height: 38px;
-  width: 110px;
+  height: 45px;
+  width: 112px;
+  margin: 54px 0px 0px 0px; /* top right bottom left */
 }
-#part2 .col-md-4 ul li button:hover {
+#part2 .col-md-4 button:hover {
   background-color: #0b5ed7;
   color: #fff;
 }
@@ -58,14 +51,16 @@ form button {
 #part3 .col-md-4 {
   padding: 15px 50px 0px 50px; /* top right bottom left */
 }
-#part3 .col-md-8 {
-  padding: 15px 150px 5px 50px; /* top right bottom left */
-}
-
 .carousel-inner img{
-  position: relative;
   width: 100%;
-  height: 450px;
+  height: 456px;
+  max-width: 812px;
+  margin: 2px 0px 0px 36px;
+}
+.carousel-control-next {
+  /* width: 50px; */
+  /* height: 50px; */
+  width: 34%;
 }
 
 /* Part 5 */
