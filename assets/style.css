@@ -24,13 +24,13 @@
   text-decoration: none;
 }
 form {
-  width: 60%;
+  width: 98%;
   max-width: 600px;
   height: 50px;
   display: inline-flex;
 }
 form button {
-  width: 80%; /* chiếm toàn bộ chiều ngang cột */
+  width: 100%; /* chiếm toàn bộ chiều ngang cột */
   max-width: 120px; /* nếu muốn giới hạn chiều rộng tối đa */
 }
 #part2 .col-md-4 button {
